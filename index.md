@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I am a junior undergraduate at the Indian Institute of Technology (BHU), Varanasi, pursuing Electronics Engineering. My interests revolve around the latent space of Large Language Models and Multimodal Deep Learning. Here, I share my work and thoughts, offering you a glimpse into my journey and discoveries.
