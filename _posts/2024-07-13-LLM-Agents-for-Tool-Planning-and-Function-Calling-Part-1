@@ -1,1 +1,25 @@
+### LLM Agents for Tool Planning and Function Calling
 
+This post is based on my work building efficient and reliable LLM agents for external tool usage. I will start with a brief intro on reasoning and planning with LLMs, and then we will move on to other cool stuff like tool usage and function calling with LLMs. The work started as one of the problem statements proposed by DevRev at Inter IIT Tech Meet 12.0, and later, we extended our work into a research paper. Here is the arxiv preprint of our work: **[SwissNyf](https://arxiv.org/abs/2402.10051)**
+
+Ps: I will use tool/function/API interchangeably throughout this post.
+
+**Reasoning & Planning with LLMs**
+
+Planning involves breaking down a complex problem into simple and sequential subproblems and solving them individually. These subproblems can be independent or sequential. In the latter case, the output of the previous steps is required as input to a current or subsequent step. Solving these subtasks involves some kind of reasoning, such as mathematical reasoning, performing operations, algebraic manipulation, etc., or conceptual or factual rationale. These reasoning are generally elicited from the internal memory of the LLMs based on the vast amount of data they are pre-trained on and also the different downstream tasks they are finetuned on. For example, you can finetune an LLM on various math problems to improve its mathematical reasoning abilities.
+
+However, eliciting this reasoning is challenging as sometimes these LLMs tend to hallucinate. What is hallucination? Sometimes, LLMs perform the wrong reasoning or use a flawed concept in their solution, resulting in an incorrect answer. Still, they do it with confidence, which means they are not sure of the accurate reasoning, resulting in a false one, leading to a hallucinated answer. 
+
+Different techniques have been developed to help improve LLM reasoning. Sometimes, one can finetune an LLM for a specific reasoning task. However, this requires a good amount of computing, which is not readily available. Other methodologies propose different prompting techniques. Detailed instruction helps LLM think better and provide more accurate reasoning. There has been a lot of work going around in this space. We will discuss some of them in the context of Tool Planning.
+
+**Tool Planning & Function Calling**
+
+What is Tool Planning? Let's imagine you are going through the documentation of a framework. Let's take PyTorch as an example. Let's say you need to generate two 1D tensors of dim = 3, one with all 0s and the other with all 1s, and then you have to perform the dot product of these two. You are still very naive with PyTorch and want to use a torch chatbot to help you. You give your query to the chatbot, which has access to the complete PyTorch documentation. This is a task of tool planning & function calling.
+
+First, the query will be passed to a retriever, which, using some kind of similarity metric, will narrow down the doc into, let's say, 2-3 pages containing relevant torch functions that may help solve the query. Now the query and these retrieved pages are given to an LLM with some customized prompt, and the LLM has to select the relevant functions from the retrieved pages, decide the order in which they must be implemented, and choose the appropriate argument values for each of these functions to address the query completely. Deciding this order of implementation is what we refer to as Tool Planning, and filling the appropriate argument values is what we call function calling. 
+
+So, in short LLM have three jobs: 
+
+1. Deciding which functions to use
+2. Order of their calling
+3. Appropriate argument values are used for each of these function calls.
