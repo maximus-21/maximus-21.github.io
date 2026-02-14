@@ -138,12 +138,21 @@ footer {
   h1 {
     font-size: 2.05rem;
   }
+
+  /* Tufte hides margin notes on small screens; show the profile photo inline */
+  .marginnote {
+    display: block !important;
+    float: none !important;
+    clear: both;
+    margin: 0.75rem 0 1rem;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .profile-picture {
+    width: 170px;
+    height: 170px;
+    display: block;
+  }
 }
-
-
-
-
-
-
-
 
