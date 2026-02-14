@@ -1,7 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
-sidebar_profile: true
+sidebar_profile: false
 ---
 
 <div class="project-card">
@@ -67,3 +67,4 @@ sidebar_profile: true
   </p>
   <p><a href="https://github.com/maximus-21/HyPost">GitHub</a></p>
 </div>
+
