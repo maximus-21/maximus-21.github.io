@@ -2,7 +2,7 @@
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 h1 {
@@ -75,12 +75,14 @@ section {
 }
 
 section:first-of-type p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.58;
 }
 
 .news-list li {
   margin-bottom: 0.35rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
 }
 
 .small-note {
@@ -104,5 +106,6 @@ footer {
     padding-top: 4.1rem;
   }
 }
+
 
 
