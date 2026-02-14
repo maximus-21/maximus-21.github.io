@@ -34,7 +34,7 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-  <h3>LLM Agent for Black-Box Tool Access (SwissNYF / TOPGUN)</h3>
+  <h3>LLM Agent for Black-Box Tool Access</h3>
   <p>
     Developed a black-box tool planning method using program synthesis and built an end-to-end pipeline with tool inventory, retrieval, and planning for multi-step agent execution without requiring access to tool internals.
   </p>
@@ -52,6 +52,7 @@ permalink: /projects/
   </p>
   <p><a href="https://github.com/maximus-21/HyPost">GitHub</a></p>
 </div>
+
 
 
 
