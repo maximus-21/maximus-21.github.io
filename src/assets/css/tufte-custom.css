@@ -1,18 +1,30 @@
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+:root {
+  color-scheme: light;
+}
+
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
   font-size: 1.15rem;
+  color: #111;
 }
 
 h1 {
   font-size: 2.1rem;
   line-height: 1.12;
+  color: #111;
 }
 
 h2 {
   font-size: 1.55rem;
   line-height: 1.2;
+  color: #111;
 }
 
 article {
@@ -44,6 +56,7 @@ article {
 .brand-link {
   margin-right: auto;
   font-weight: 700;
+  color: #111;
 }
 
 .no-tufte-underline {
@@ -57,6 +70,10 @@ article {
 .no-tufte-underline:hover {
   border-color: #d2d9ef;
   text-decoration: none;
+}
+
+.no-tufte-underline:visited {
+  color: #355a9d;
 }
 
 .profile-picture {
@@ -105,7 +122,24 @@ footer {
   body {
     padding-top: 4.1rem;
   }
+
+  .topbar {
+    background: #fffff8;
+    backdrop-filter: none;
+  }
+  
+  .right-aligned-links {
+    padding: 0 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0.25rem;
+  }
+  
+  h1 {
+    font-size: 2.05rem;
+  }
 }
+
 
 
 
