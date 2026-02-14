@@ -7,7 +7,7 @@ permalink: /projects/
 <div class="project-card">
   <h3>VoiceAgentBench</h3>
   <p>
-    Created the first multilingual benchmark to evaluate speech-based agents on
+    Created the first multilingual benchmark (6000+ spoken queries) to evaluate speech-based agents on
     tool use, multi-turn planning, and adversarial safety across realistic
     agentic tasks.
   </p>
@@ -20,9 +20,9 @@ permalink: /projects/
 <div class="project-card">
   <h3>Self-Correcting Reinforcement Learning for Physics</h3>
   <p>
-    Developed a two-stage reinforcement learning pipeline where models generate
-    an initial solution, receive step-level error feedback, and refine their
-    answers via self-correction.
+    Developed a two-stage reinforcement learning framework for physics reasoning in which a 
+    base policy generates an initial solution, receives step-level error feedback from a verifier 
+    model, and produces a revised solution trained via KL-regularized reward maximization.
   </p>
   <p>
     <a href="https://github.com/maximus-21/self-correct-physics-rl">GitHub</a>
@@ -45,8 +45,8 @@ permalink: /projects/
 <div class="project-card">
   <h3>LLM Agent for Black-Box Tool Access</h3>
   <p>
-    Proposed a black-box tool planning method using program synthesis and built
-    an end-to-end agent pipeline combining retrieval and structured planning.
+    Proposed a black-box tool planning framework leveraging program synthesis to generate executable 
+    tool-call sequences without actuall API call access, and built an end-to-end agent pipeline integrating retrieval with structured plan generation.
   </p>
   <p>
     <a href="https://github.com/maximus-21/SwissNYF">GitHub</a> ·
@@ -64,3 +64,4 @@ permalink: /projects/
     <a href="https://github.com/maximus-21/HyPost">GitHub</a>
   </p>
 </div>
+
