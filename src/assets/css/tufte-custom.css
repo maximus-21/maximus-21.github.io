@@ -11,7 +11,7 @@ html {
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #111;
 }
 
@@ -92,11 +92,11 @@ article {
 
 section {
   padding-top: 0.4rem;
-  margin-top: 0.4rem;
+  margin-top: 0.35rem;
 }
 
 section:first-of-type p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.58;
 }
 
@@ -203,6 +203,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
