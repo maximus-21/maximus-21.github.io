@@ -82,8 +82,8 @@ article {
 }
 
 .profile-picture {
-  width: 300px;
-  height: 300px;
+  width: 315px;
+  height: 315px;
   object-fit: cover;
   border-radius: 0.45rem;
   border: 1px solid #d8d8cf;
@@ -134,8 +134,8 @@ footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 74px;
-  height: 74px;
+  width: 40px;
+  height: 40px;
   border-radius: 10px;
   color: #355a9d;
   text-decoration: none;
@@ -147,8 +147,8 @@ footer {
 }
 
 .footer-icon svg {
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   display: block;
 }
 
@@ -198,10 +198,11 @@ footer {
   }
 
   .profile-picture {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     display: block;
   }
 }
+
 
 
