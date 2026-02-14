@@ -1,9 +1,17 @@
-/* Tyler-inspired notebook-like layer on top of Tufte CSS */
-
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 0.7rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.12;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 article {
@@ -51,8 +59,8 @@ article {
 }
 
 .profile-picture {
-  width: 350px;
-  height: 350px;
+  width: 260px;
+  height: 260px;
   object-fit: cover;
   border-radius: 0.45rem;
   border: 1px solid #d8d8cf;
@@ -63,6 +71,11 @@ section {
   border-top: 1px solid #ecece2;
   padding-top: 0.9rem;
   margin-top: 1.2rem;
+}
+
+section:first-of-type p {
+  font-size: 1.06rem;
+  line-height: 1.62;
 }
 
 .news-list li {
@@ -90,8 +103,3 @@ footer {
     padding-top: 4.1rem;
   }
 }
-
-
-
-
-
