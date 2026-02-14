@@ -26,7 +26,7 @@ permalink: /projects/
     error feedback from a verifier model, then produce corrected outputs trained with
     KL-regularized reward maximization.
   </p>
-  <p><a href="https://github.com/maximus-21/self-correct-physics-rl">GitHub repository</a></p>
+  <p><a href="https://github.com/maximus-21/self-correct-physics-rl">GitHub</a></p>
 </div>
 
 <div class="project-card">
@@ -53,7 +53,7 @@ permalink: /projects/
   <p>
     <a href="https://github.com/maximus-21/SwissNYF">GitHub</a>
     ·
-    <a href="https://arxiv.org/abs/2402.10051">Paper</a>
+    <a href="https://arxiv.org/abs/2402.10051">arXiv</a>
   </p>
 </div>
 
@@ -66,5 +66,6 @@ permalink: /projects/
   </p>
   <p><a href="https://github.com/maximus-21/HyPost">GitHub</a></p>
 </div>
+
 
 
