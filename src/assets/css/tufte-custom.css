@@ -3,7 +3,7 @@
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 article {
@@ -90,6 +90,7 @@ footer {
     padding-top: 4.1rem;
   }
 }
+
 
 
 
