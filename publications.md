@@ -1,7 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
-sidebar_profile: true
+sidebar_profile: false
 ---
 
 Selected publications and preprints:
@@ -20,4 +20,5 @@ Selected publications and preprints:
    *Somnath Sendhil Kumar, Dhruv Jain, et al.*  
    Preprint  
    [arXiv](https://arxiv.org/abs/2402.10051)
+
 
