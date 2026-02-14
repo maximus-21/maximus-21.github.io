@@ -41,7 +41,7 @@ article {
   background: rgba(255, 255, 248, 0.92);
   backdrop-filter: blur(8px);
   z-index: 20;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .right-aligned-links {
@@ -57,8 +57,8 @@ article {
 .brand-link {
   margin-right: auto;
   font-weight: 700;
-  color: #111;
-  font-size: 1.6rem !important;
+  color: #355a9d;
+  font-size: 1.85rem !important;
   line-height: 1.1;
 }
 
@@ -68,7 +68,7 @@ article {
   border-radius: 999px;
   padding: 0.12rem 0.5rem;
   color: #355a9d;
-  font-size: 1.2rem !important;
+  font-size: 1.35rem !important;
   line-height: 1.1;
 }
 
@@ -141,11 +141,11 @@ footer {
   }
 
   .brand-link {
-    font-size: 1.7rem !important;
+    font-size: 1.95rem !important;
   }
 
   .no-tufte-underline {
-    font-size: 1.25rem !important;
+    font-size: 1.4rem !important;
   }
   
   h1 {
