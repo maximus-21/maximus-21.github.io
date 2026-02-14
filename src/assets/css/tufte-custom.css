@@ -135,8 +135,8 @@ footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 74px;
+  height: 74px;
   border-radius: 10px;
   color: #355a9d;
   text-decoration: none;
@@ -204,3 +204,4 @@ footer {
     display: block;
   }
 }
+
