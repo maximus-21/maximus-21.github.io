@@ -123,6 +123,42 @@ footer {
   margin-top: 2rem;
 }
 
+.footer-icons {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0.25rem;
+}
+
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  color: #355a9d;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.footer-icon:hover {
+  border-color: #d2d9ef;
+}
+
+.footer-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.footer-copy {
+  margin-top: 0.6rem;
+  color: #646464;
+  font-size: 0.95rem;
+}
+
 @media (max-width: 900px) {
   body {
     padding-top: 4.1rem;
