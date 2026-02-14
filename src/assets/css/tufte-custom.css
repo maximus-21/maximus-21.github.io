@@ -57,6 +57,7 @@ article {
   margin-right: auto;
   font-weight: 700;
   color: #111;
+  font-size: 1.25rem;
 }
 
 .no-tufte-underline {
@@ -65,6 +66,7 @@ article {
   border-radius: 999px;
   padding: 0.12rem 0.5rem;
   color: #355a9d;
+  font-size: 1.05rem;
 }
 
 .no-tufte-underline:hover {
@@ -134,6 +136,14 @@ footer {
     flex-wrap: wrap;
     row-gap: 0.25rem;
   }
+
+  .brand-link {
+    font-size: 1.35rem;
+  }
+
+  .no-tufte-underline {
+    font-size: 1.1rem;
+  }
   
   h1 {
     font-size: 2.05rem;
@@ -150,9 +160,8 @@ footer {
   }
 
   .profile-picture {
-    width: 170px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
     display: block;
   }
 }
-
