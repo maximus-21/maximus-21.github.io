@@ -1,0 +1,91 @@
+/* Tyler-inspired notebook-like layer on top of Tufte CSS */
+
+body {
+  padding-top: 3.4rem;
+  background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
+}
+
+article {
+  max-width: 72rem;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ecece2;
+  background: rgba(255, 255, 248, 0.92);
+  backdrop-filter: blur(8px);
+  z-index: 20;
+}
+
+.right-aligned-links {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 0.65rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.brand-link {
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.no-tufte-underline {
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.12rem 0.5rem;
+  color: #355a9d;
+}
+
+.no-tufte-underline:hover {
+  border-color: #d2d9ef;
+  text-decoration: none;
+}
+
+.profile-picture {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.45rem;
+  border: 1px solid #d8d8cf;
+  box-shadow: 0 8px 18px rgba(49, 64, 112, 0.12);
+}
+
+section {
+  border-top: 1px solid #ecece2;
+  padding-top: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.news-list li {
+  margin-bottom: 0.35rem;
+}
+
+.small-note {
+  margin-top: 0.1rem;
+  color: #646464;
+  font-size: 0.95rem;
+}
+
+.project-card {
+  margin: 0.9rem 0 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #ecece2;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding-top: 4.1rem;
+  }
+}

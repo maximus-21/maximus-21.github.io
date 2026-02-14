@@ -1,38 +1,56 @@
-# Dhruv Portfolio (Jekyll)
+# Dhruv Portfolio (Eleventy + Tufte CSS)
 
-A simple Jekyll portfolio site for GitHub Pages.
+This website uses:
 
-## Quick start (local)
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/)
+- Eleventy static site generator
+- An Eleventufte-inspired structure
 
-1. Install Ruby + Bundler
-2. Run:
+## Local development
 
 ```bash
-bundle install
-bundle exec jekyll serve
+npm install
+npm start
 ```
 
-3. Open `http://127.0.0.1:4000`
+Open `http://localhost:8080`.
 
-## Customize
+## Build
 
-- Edit profile info in `_config.yml`
-- Edit homepage in `index.md`
-- Edit `about.md`, `projects.md`, `publications.md`
-- Update navigation in `_data/navigation.yml`
+```bash
+npm run build
+```
 
-## Deploy to GitHub Pages
+Build output is generated in `_site/`.
 
-### Option A: User site (recommended)
+## Content files
 
-- Create repo named `yourusername.github.io`
-- Push this project to that repo root
-- Visit `https://yourusername.github.io`
+- `src/index.njk`
+- `src/projects.md`
+- `src/publications.md`
 
-### Option B: Project site
+The homepage (`src/index.njk`) includes the About section.
 
-- Use any repo name (e.g., `portfolio`)
-- In `_config.yml`, set:
-  - `url: "https://yourusername.github.io"`
-  - `baseurl: "/portfolio"`
-- Enable GitHub Pages in repo Settings
+Shared layout and data:
+
+- `src/_layouts/frontpage.njk`
+- `src/_layouts/page.njk`
+- `src/_includes/head.njk`
+- `src/_includes/footer.njk`
+- `src/_data/site.json`
+- `src/_data/navigation.json`
+- `src/assets/css/tufte-custom.css`
+
+## Deployment
+
+Deployment is handled by GitHub Actions:
+
+- Workflow: `.github/workflows/deploy-eleventy.yml`
+- Trigger: push to `main`
+- Output: GitHub Pages
+
+## Design inspiration
+
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/)
+- [Eleventufte](https://github.com/nerdhaus/eleventufte/tree/main)
+- [Tyler Romero's website and repo](https://www.tylerromero.com/) · [GitHub](https://github.com/tyler-romero/tyler-romero.github.io)

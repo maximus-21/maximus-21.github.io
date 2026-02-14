@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "head.njk" %}
+  </head>
+  <body class="sans">
+    <header>
+      <nav class="topbar">
+        <div class="right-aligned-links">
+          <a href="/" class="no-tufte-underline brand-link">{{ site.title }}</a>
+          <a href="/#news" class="no-tufte-underline">news</a>
+          <a href="/#publications" class="no-tufte-underline">publications</a>
+          <a href="/#projects" class="no-tufte-underline">projects</a>
+        </div>
+      </nav>
+    </header>
+    <article>
+      {{ content | safe }}
+    </article>
+    <footer>
+      {% include "footer.njk" %}
+    </footer>
+  </body>
+</html>

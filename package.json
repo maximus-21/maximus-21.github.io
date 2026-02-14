@@ -1,0 +1,14 @@
+{
+  "name": "maximus-21-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dhruv Jain personal website built with Eleventy and Tufte CSS.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site",
+    "build": "npm run clean && eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.0"
+  }
+}
