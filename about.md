@@ -16,4 +16,5 @@ post-processing and domain adaptation. Across these roles, I have focused on
 interpretable, data-efficient methods that improve model robustness in practical
 settings. I completed my B.Tech. in Electronics Engineering at IIT (BHU), Varanasi.
 
-[Resume](https://drive.google.com/file/d/1_GX06dvbdrlAA5fmgNtgV4hD1a6sg1Cq/view?usp=drivesdk).
+[Resume](https://drive.google.com/file/d/1_GX06dvbdrlAA5fmgNtgV4hD1a6sg1Cq/view?usp=drivesdk)
+
