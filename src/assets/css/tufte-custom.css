@@ -1,16 +1,17 @@
+
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.35rem;
   line-height: 1.12;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.55rem;
   line-height: 1.2;
 }
 
@@ -74,8 +75,8 @@ section {
 }
 
 section:first-of-type p {
-  font-size: 1.06rem;
-  line-height: 1.62;
+  font-size: 0.98rem;
+  line-height: 1.58;
 }
 
 .news-list li {
