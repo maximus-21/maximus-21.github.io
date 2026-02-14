@@ -11,7 +11,7 @@ html {
 body {
   padding-top: 3.4rem;
   background: radial-gradient(circle at top right, #f3f7ff 0, #fffff8 36%);
-  font-size: 1.15rem;
+  font-size: 1.08rem;
   color: #111;
 }
 
@@ -96,7 +96,7 @@ section {
 }
 
 section:first-of-type p {
-  font-size: 1.15rem;
+  font-size: 1.08rem;
   line-height: 1.58;
 }
 
@@ -119,7 +119,7 @@ section:first-of-type p {
 }
 
 footer {
-  margin-top: 1.4rem;
+  margin-top: 1.1rem;
 }
 
 .footer-icons {
@@ -203,6 +203,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
