@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ site.description }}" />
+    <title>
+      {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
 
+    <main class="container page-content">
+      {% if page.sidebar_profile %}
+        <div class="content-grid">
+          <section class="content-main">
+            {% if page.title and page.show_title != false %}
+              <h1>{{ page.title }}</h1>
+            {% endif %}
+            {{ content }}
+          </section>
+          <aside class="profile-sidebar">
+            <img
+              class="profile-photo"
+              src="{{ page.profile_image | default: '/assets/img/profile-placeholder.svg' | relative_url }}"
+              alt="{{ site.title }} profile photo"
+            />
+            <h3>{{ site.title }}</h3>
+            <p class="muted">
+              Research Engineer<br />
+              LLM and Speech Modeling
+            </p>
+            <p class="sidebar-links">
+              <a href="mailto:{{ site.email }}">Email</a> ·
+              <a href="https://github.com/{{ site.github_username }}">GitHub</a> ·
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+            </p>
+          </aside>
+        </div>
+      {% else %}
+        {% if page.title and page.show_title != false %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+      {% endif %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+        <p>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          ·
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+          ·
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
