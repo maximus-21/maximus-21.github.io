@@ -5,7 +5,7 @@ show_title: false
 
 <section class="hero">
   <div class="intro-grid">
-    <img class="intro-photo" src="/assets/img/profile-placeholder.svg" alt="Dhruv Jain photo" />
+    <img class="intro-photo" src="/assets/img/profile.jpg" alt="Dhruv Jain photo" />
     <div class="intro-text">
       <h1 style="margin-top: 0;">Dhruv Jain</h1>
       <p class="muted">Research Engineer · LLM and Speech Modeling</p>
@@ -66,3 +66,4 @@ show_title: false
   <li>Evaluation</li>
   <li>MLOps</li>
 </ul>
+
