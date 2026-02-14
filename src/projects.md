@@ -7,7 +7,7 @@ permalink: /projects/
 <div class="project-card">
   <h3>VoiceAgentBench</h3>
   <p>
-    Developed the first multilingual benchmark for evaluating speech-based AI
+    Developed the first multilingual benchmark for evaluating speech-based
     agents on tool usage, multi-turn planning, and adversarial safety.
   </p>
   <p>
@@ -58,3 +58,4 @@ permalink: /projects/
   </p>
   <p><a href="https://github.com/maximus-21/HyPost">GitHub</a></p>
 </div>
+
