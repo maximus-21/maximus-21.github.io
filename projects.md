@@ -7,6 +7,7 @@ permalink: /projects/
   <h3>VoiceAgentBench</h3>
   <p>
     Developed the first multilingual benchmark for evaluating speech-based AI agents on tool usage, multi-turn planning, and adversarial safety. The dataset contains 6k+ spoken queries across English, Hindi, and five Indic languages, enabling systematic evaluation of SpeechLMs in realistic agentic scenarios.
+  </p>
   <p>
     <a href="https://github.com/ola-krutrim/VoiceAgentBench">GitHub</a>
     ·
@@ -18,6 +19,7 @@ permalink: /projects/
   <h3>Self-Correcting Reinforcement Learning for Physics</h3>
   <p>
     Built a two-stage reinforcement learning framework for physics reasoning where models generate an initial solution, receive step-level error feedback, and produce a corrected answer. Trained using KL-regularized reward optimization to improve reliability and reasoning accuracy in small language models.
+  </p>
   <p><a href="https://github.com/maximus-21/self-correct-physics-rl">GitHub</a></p>
 </div>
 
@@ -52,6 +54,7 @@ permalink: /projects/
   </p>
   <p><a href="https://github.com/maximus-21/HyPost">GitHub</a></p>
 </div>
+
 
 
 
